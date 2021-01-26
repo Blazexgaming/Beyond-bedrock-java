@@ -14,6 +14,7 @@ import net.minecraft.client.Minecraft;
 public class BeyondbedrockModVariables {
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "beyondbedrock_mapvars";
+		public boolean GoblinTrader = false;
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -24,10 +25,12 @@ public class BeyondbedrockModVariables {
 
 		@Override
 		public void readFromNBT(NBTTagCompound nbt) {
+			GoblinTrader = nbt.getBoolean("GoblinTrader");
 		}
 
 		@Override
 		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
+			nbt.setBoolean("GoblinTrader", GoblinTrader);
 			return nbt;
 		}
 

@@ -331,7 +331,14 @@
       "registry_name": "obsidion_hoe_recipe"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "GoblinTrader",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -339,11 +346,11 @@
       "item.obsidion_shovel.name": "Obsidion Shovel",
       "item.obsidianlegs.name": "Obsidian Leggings",
       "item.silver_shovel.name": "Silver Shovel",
-      "item.obsidion_axe.name": "Obsidion Axe",
-      "item.obsidion_sword.name": "Obsidion Sword",
+      "item.obsidion_axe.name": "Obsidian Axe",
+      "item.obsidion_sword.name": "Obsidian Sword",
       "item.silver_armorhelmet.name": "Silver Helmet",
       "item.obsidion_pickaxe.name": "Obsidion Pickaxe",
-      "item.obsidion_hoe.name": "Obsidion Hoe",
+      "item.obsidion_hoe.name": "Obsidian Hoe",
       "item.silver_sword.name": "Silver Sword",
       "item.obsidianbody.name": "Obsidian Body",
       "item.silver_axe.name": "Silver Axe",
