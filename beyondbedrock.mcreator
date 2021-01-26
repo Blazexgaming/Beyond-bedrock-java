@@ -329,6 +329,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "obsidion_hoe_recipe"
+    },
+    {
+      "name": "GrassBlockBlood",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_block_blood"
+    },
+    {
+      "name": "BloodForrest",
+      "type": "biome",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_forrest"
     }
   ],
   "variable_elements": [],
@@ -354,6 +372,7 @@
       "item.obsidianhelmet.name": "Obsidian Helmet",
       "item.silver_pickaxe.name": "Silver Pickaxe",
       "item.silver_armorbody.name": "Silver Chestplate",
+      "tile.grass_block_blood.name": "blood grass",
       "item.silver_armorlegs.name": "Silver Leggings",
       "item.silver_armorboots.name": "Silver Boots",
       "item.obsidian_shard.name": "Obsidian Shard"
