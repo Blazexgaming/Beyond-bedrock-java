@@ -1,0 +1,30 @@
+{
+  "group": "beyondbedrock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondbedrock:obsidian_shard"
+    },
+    "1": {
+      "item": "beyondbedrock:obsidian_shard"
+    },
+    "2": {
+      "item": "beyondbedrock:obsidian_shard"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "beyondbedrock:obsidion_axe",
+    "count": 1
+  }
+}

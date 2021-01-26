@@ -1,0 +1,13 @@
+{
+  "group": "beyondbedrock",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "beyondbedrock:silver_block"
+    }
+  ],
+  "result": {
+    "item": "beyondbedrock:silver_ingot",
+    "count": 9
+  }
+}

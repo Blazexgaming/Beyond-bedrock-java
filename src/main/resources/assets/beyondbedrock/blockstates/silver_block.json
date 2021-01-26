@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "beyondbedrock:silver_block"
+    }
+  }
+}

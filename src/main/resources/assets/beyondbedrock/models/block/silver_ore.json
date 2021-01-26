@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "beyondbedrock:blocks/silver_ore",
+    "particle": "beyondbedrock:blocks/silver_ore"
+  }
+}

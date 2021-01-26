@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "obsidion_pickaxe",
+    "customModelName": "Normal",
+    "name": "Obsidion Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 9,
+    "efficiency": 14.0,
+    "attackSpeed": 1.0,
+    "enchantability": 60,
+    "damageVsEntity": 9.0,
+    "usageCount": 1927,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ObsidianShard"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

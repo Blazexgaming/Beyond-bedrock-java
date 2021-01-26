@@ -1,0 +1,39 @@
+{
+  "group": "beyondbedrock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondbedrock:obsidian_shard"
+    },
+    "2": {
+      "item": "beyondbedrock:obsidian_shard"
+    },
+    "3": {
+      "item": "beyondbedrock:obsidian_shard"
+    },
+    "4": {
+      "item": "beyondbedrock:obsidian_shard"
+    },
+    "5": {
+      "item": "beyondbedrock:obsidian_shard"
+    },
+    "6": {
+      "item": "beyondbedrock:obsidian_shard"
+    },
+    "7": {
+      "item": "beyondbedrock:obsidian_shard"
+    },
+    "8": {
+      "item": "beyondbedrock:obsidian_shard"
+    }
+  },
+  "result": {
+    "item": "beyondbedrock:obsidianbody",
+    "count": 1
+  }
+}

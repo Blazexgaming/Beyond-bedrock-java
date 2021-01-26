@@ -1,0 +1,26 @@
+{
+  "group": "beyondbedrock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondbedrock:silver_ingot"
+    },
+    "2": {
+      "item": "beyondbedrock:silver_ingot"
+    },
+    "3": {
+      "item": "beyondbedrock:silver_ingot"
+    },
+    "5": {
+      "item": "beyondbedrock:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "beyondbedrock:silver_armorboots",
+    "count": 1
+  }
+}
