@@ -5,8 +5,8 @@
 public static class Modelcustom_model extends ModelBase {
 	private final ModelRenderer leg1;
 	private final ModelRenderer leg2;
+	private final ModelRenderer arm1;
 	private final ModelRenderer arm2;
-	private final ModelRenderer arm3;
 	private final ModelRenderer head;
 	private final ModelRenderer bb_main;
 
@@ -22,13 +22,13 @@ public static class Modelcustom_model extends ModelBase {
 		leg2.setRotationPoint(-2.0F, 21.0F, 0.0F);
 		leg2.cubeList.add(new ModelBox(leg2, 18, 13, -1.0F, 0.0F, -1.0F, 2, 3, 2, 0.0F, false));
 
-		arm2 = new ModelRenderer(this);
-		arm2.setRotationPoint(-4.0F, 16.0F, 0.0F);
-		arm2.cubeList.add(new ModelBox(arm2, 18, 18, -1.0F, -1.0F, -1.0F, 2, 5, 2, 0.0F, false));
+		arm1 = new ModelRenderer(this);
+		arm1.setRotationPoint(-4.0F, 16.0F, 0.0F);
+		arm1.cubeList.add(new ModelBox(arm2, 18, 18, -1.0F, -1.0F, -1.0F, 2, 5, 2, 0.0F, false));
 
-		arm3 = new ModelRenderer(this);
-		arm3.setRotationPoint(3.0F, 16.0F, -2.0F);
-		arm3.cubeList.add(new ModelBox(arm3, 0, 24, -1.0F, -1.0F, 1.0F, 2, 5, 2, 0.0F, false));
+		arm2 = new ModelRenderer(this);
+		arm2.setRotationPoint(3.0F, 16.0F, -2.0F);
+		arm2.cubeList.add(new ModelBox(arm3, 0, 24, -1.0F, -1.0F, 1.0F, 2, 5, 2, 0.0F, false));
 
 		head = new ModelRenderer(this);
 		head.setRotationPoint(0.0F, 24.0F, 0.0F);
