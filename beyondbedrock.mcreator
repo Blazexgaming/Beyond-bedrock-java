@@ -329,6 +329,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "obsidion_hoe_recipe"
+    },
+    {
+      "name": "BeyondBedrock",
+      "type": "achievement",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beyond_bedrock"
+    },
+    {
+      "name": "NetherDiamondOre",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nether_diamond_ore"
     }
   ],
   "variable_elements": [
@@ -342,28 +360,31 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "tile.silver_block.name": "Block of Silver",
-      "item.obsidion_shovel.name": "Obsidion Shovel",
       "item.obsidianlegs.name": "Obsidian Leggings",
-      "item.silver_shovel.name": "Silver Shovel",
       "item.obsidion_axe.name": "Obsidian Axe",
       "item.obsidion_sword.name": "Obsidian Sword",
-      "item.silver_armorhelmet.name": "Silver Helmet",
-      "item.obsidion_pickaxe.name": "Obsidion Pickaxe",
       "item.obsidion_hoe.name": "Obsidian Hoe",
       "item.silver_sword.name": "Silver Sword",
       "item.obsidianbody.name": "Obsidian Body",
-      "item.silver_axe.name": "Silver Axe",
       "item.silver_hoe.name": "Silver Hoe",
-      "item.obsidianboots.name": "Obsidian Boots",
-      "item.silver_ingot.name": "Silver",
+      "item.silver_axe.name": "Silver Axe",
       "tile.silver_ore.name": "Silver Ore",
-      "item.obsidianhelmet.name": "Obsidian Helmet",
       "item.silver_pickaxe.name": "Silver Pickaxe",
+      "advancements.beyond_bedrock.title": "Beyond Bedrock",
       "item.silver_armorbody.name": "Silver Chestplate",
+      "item.obsidian_shard.name": "Obsidian Shard",
+      "tile.silver_block.name": "Block of Silver",
+      "item.obsidion_shovel.name": "Obsidion Shovel",
+      "item.silver_shovel.name": "Silver Shovel",
+      "item.obsidion_pickaxe.name": "Obsidion Pickaxe",
+      "item.silver_armorhelmet.name": "Silver Helmet",
+      "item.obsidianboots.name": "Obsidian Boots",
+      "tile.nether_diamond_ore.name": "Nether Diamond Ore",
+      "item.silver_ingot.name": "Silver",
+      "advancements.beyond_bedrock.descr": "craft an obsidian tool",
+      "item.obsidianhelmet.name": "Obsidian Helmet",
       "item.silver_armorlegs.name": "Silver Leggings",
-      "item.silver_armorboots.name": "Silver Boots",
-      "item.obsidian_shard.name": "Obsidian Shard"
+      "item.silver_armorboots.name": "Silver Boots"
     }
   },
   "workspaceSettings": {
