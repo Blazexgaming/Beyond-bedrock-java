@@ -1,0 +1,32 @@
+{
+  "group": "beyondbedrock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "beyondbedrock:blood_oak_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "beyondbedrock:blood_oak_planks"
+    },
+    "3": {
+      "item": "beyondbedrock:blood_oak_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "beyondbedrock:blood_oak_planks"
+    }
+  },
+  "result": {
+    "item": "beyondbedrock:blood_oak_fence",
+    "count": 3
+  }
+}

@@ -347,6 +347,167 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "nether_diamond_ore"
+    },
+    {
+      "name": "Acid",
+      "type": "fluid",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid"
+    },
+    {
+      "name": "AcidMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodOakWood",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_wood"
+    },
+    {
+      "name": "BloodOakLog",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_log"
+    },
+    {
+      "name": "BloodOakPlanks",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_planks"
+    },
+    {
+      "name": "BloodOakLeaves",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_leaves"
+    },
+    {
+      "name": "BloodOakStairs",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_stairs"
+    },
+    {
+      "name": "BloodOakSlab",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_slab"
+    },
+    {
+      "name": "BloodOakFence",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_fence"
+    },
+    {
+      "name": "BloodOakItemsTag",
+      "type": "tag",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_items_tag"
+    },
+    {
+      "name": "BloodOakWoodRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_wood_recipe"
+    },
+    {
+      "name": "BloodOakPlanksRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_planks_recipe"
+    },
+    {
+      "name": "BloodOakStairsRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_stairs_recipe"
+    },
+    {
+      "name": "BloodOakSlabRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_slab_recipe"
+    },
+    {
+      "name": "BloodOakFenceRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_fence_recipe"
+    },
+    {
+      "name": "BloodOakStickRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blood_oak_stick_recipe"
+    },
+    {
+      "name": "CursedFeilds",
+      "type": "biome",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cursed_feilds"
     }
   ],
   "variable_elements": [
@@ -372,19 +533,27 @@
       "item.silver_pickaxe.name": "Silver Pickaxe",
       "advancements.beyond_bedrock.title": "Beyond Bedrock",
       "item.silver_armorbody.name": "Silver Chestplate",
+      "tile.blood_oak_log.name": "BloodOak Log",
+      "tile.blood_oak_fence.name": "BloodOak Fence",
+      "tile.blood_oak_planks.name": "BloodOak Planks",
       "item.obsidian_shard.name": "Obsidian Shard",
       "tile.silver_block.name": "Block of Silver",
       "item.obsidion_shovel.name": "Obsidion Shovel",
+      "tile.blood_oak_stairs.name": "BloodOak Stairs",
       "item.silver_shovel.name": "Silver Shovel",
       "item.obsidion_pickaxe.name": "Obsidion Pickaxe",
       "item.silver_armorhelmet.name": "Silver Helmet",
       "item.obsidianboots.name": "Obsidian Boots",
+      "tile.blood_oak_leaves.name": "BloodOak Leaves",
       "tile.nether_diamond_ore.name": "Nether Diamond Ore",
       "item.silver_ingot.name": "Silver",
       "advancements.beyond_bedrock.descr": "craft an obsidian tool",
       "item.obsidianhelmet.name": "Obsidian Helmet",
+      "tile.blood_oak_slab.name": "BloodOak Slab",
+      "tile.blood_oak_wood.name": "BloodOak Wood",
       "item.silver_armorlegs.name": "Silver Leggings",
-      "item.silver_armorboots.name": "Silver Boots"
+      "item.silver_armorboots.name": "Silver Boots",
+      "fluid.acid": "Acid"
     }
   },
   "workspaceSettings": {
@@ -400,6 +569,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.luxcore.beyondbedrock",
     "lockBaseModFiles": false
   },

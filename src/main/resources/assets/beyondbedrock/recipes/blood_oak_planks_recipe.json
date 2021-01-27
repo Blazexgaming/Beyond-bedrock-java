@@ -1,0 +1,14 @@
+{
+  "group": "beyondbedrock",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "forgebloodoak_log"
+    }
+  ],
+  "result": {
+    "item": "beyondbedrock:blood_oak_planks",
+    "count": 4
+  }
+}

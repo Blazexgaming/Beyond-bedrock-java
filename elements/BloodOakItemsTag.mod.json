@@ -1,0 +1,19 @@
+{
+  "_fv": 13,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BloodOakWood"
+      },
+      {
+        "value": "CUSTOM:BloodOakLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "bloodoak_log",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beyondbedrock:blocks/bloodoak_log_top",
+    "up": "beyondbedrock:blocks/bloodoak_log_top",
+    "north": "beyondbedrock:blocks/bloodoak_log_side",
+    "east": "beyondbedrock:blocks/bloodoak_log_side",
+    "south": "beyondbedrock:blocks/bloodoak_log_side",
+    "west": "beyondbedrock:blocks/bloodoak_log_side",
+    "particle": "beyondbedrock:blocks/bloodoak_log_top"
+  }
+}

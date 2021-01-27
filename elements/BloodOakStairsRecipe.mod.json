@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BloodOakPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BloodOakPlanks"
+      },
+      {
+        "value": "CUSTOM:BloodOakPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BloodOakPlanks"
+      },
+      {
+        "value": "CUSTOM:BloodOakPlanks"
+      },
+      {
+        "value": "CUSTOM:BloodOakPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BloodOakStairs"
+    },
+    "name": "blood_oak_stairs_recipe",
+    "namespace": "mod"
+  }
+}

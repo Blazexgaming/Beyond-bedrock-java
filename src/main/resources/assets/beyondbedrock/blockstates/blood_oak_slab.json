@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "beyondbedrock:blood_oak_slab"
+    },
+    "half=top,variant=default": {
+      "model": "beyondbedrock:blood_oak_slab_top"
+    }
+  }
+}
